@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+/* GENERAL SETTINGS */
+
+:root {
+  --aside-bg-color: #5488a2;
+  --navbar-bg-color: #ffffff;
+  --text-color: #6e777f;
+  --header-bg-color: #1b72e8;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+strong,
+span,
+p,
+i,
+h1,
+h2,
+h3,
+h4,
+li {
+  font-family: "Roboto", "Open Sans", sans-serif;
+  color: var(--text-color, gray);
+}
