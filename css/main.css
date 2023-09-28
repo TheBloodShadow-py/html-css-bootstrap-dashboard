@@ -3,10 +3,17 @@
 /* GENERAL SETTINGS */
 
 :root {
-  --aside-bg-color: #5488a2;
+  --aside-bg-color: #051e34;
   --navbar-bg-color: #ffffff;
   --text-color: #6e777f;
   --header-bg-color: #1b72e8;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 ul,
@@ -92,4 +99,53 @@ nav input::placeholder {
 
 .doorbell {
   color: #ff8f00;
+}
+
+/* ASIDE */
+
+aside {
+  background-color: var(--aside-bg-color);
+  background-image: url("../img/sidebar-bg.png");
+  width: 70px;
+  padding: 20px 0px;
+  position: sticky;
+  left: 0;
+  top: 0;
+  height: calc(100% - 80px);
+}
+
+.aside-text {
+  color: white;
+}
+
+.aside-icon {
+  color: white;
+  font-size: 18px;
+}
+
+.aside-bar-container {
+  padding: 6px;
+  transform: translateX(-3.5px);
+}
+
+.aside-bar-container:hover {
+  background-color: rgba(180, 180, 180, 0.61);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  aside {
+    height: calc(100% - 70px);
+    width: 135px;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
 }
