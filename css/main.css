@@ -33,3 +33,63 @@ li {
   font-family: "Roboto", "Open Sans", sans-serif;
   color: var(--text-color, gray);
 }
+
+img {
+  max-width: 100%;
+}
+
+.icon-wrapper {
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* NAVBAR */
+
+nav {
+  padding: 15px 0px;
+}
+
+.mobile-logo {
+  width: 50px;
+}
+
+nav input {
+  background-color: #e5e5e5;
+  border: 0px;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+  padding-left: 32px;
+}
+
+nav input::placeholder {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input-container {
+  position: relative;
+  flex-grow: 1;
+  margin: 0px 20px;
+}
+
+.input-container::before {
+  position: absolute;
+  content: "\f002";
+  display: table;
+  font-family: "Font Awesome 5 Free";
+  top: 50%;
+  left: 15px;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.doorbell {
+  color: #ff8f00;
+}
