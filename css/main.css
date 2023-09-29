@@ -174,11 +174,20 @@ main header i {
   color: white;
 }
 
+.offcanvas {
+  width: 100% !important;
+}
+
 .w-th {
   width: 50%;
 }
 
+/* MEDIA */
+
 @media (min-width: 768px) {
+  .offcanvas {
+    width: 80% !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -189,9 +198,15 @@ main header i {
   main {
     margin-left: 135px;
   }
+  .offcanvas {
+    width: 60% !important;
+  }
 }
 
 @media (min-width: 1200px) {
+  .offcanvas {
+    width: 40% !important;
+  }
 }
 
 @media (min-width: 1400px) {

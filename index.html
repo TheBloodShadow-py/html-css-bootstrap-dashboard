@@ -67,6 +67,7 @@
         </div>
       </div>
     </nav>
+    <!-- ASIDE -->
     <aside class="flex-shrink-0">
       <div class="container-fluid h-100">
         <div
@@ -101,7 +102,9 @@
         </div>
       </div>
     </aside>
-    <main class="">
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- HEADER -->
       <header>
         <div class="container-fluid">
           <div
@@ -118,6 +121,7 @@
                   <i class="fa-solid fa-angles-right"></i>
                 </div>
                 <span class="badge bg-darkblue d-lg-none">+</span>
+
                 <span class="badge bg-darkblue d-none d-lg-inline-block"
                   >Boolean mobile app</span
                 >
@@ -138,8 +142,191 @@
             <div class="d-flex order-first order-md-1">
               <div class="d-flex gap-3 align-items-center">
                 <span>Nuovo Studente</span>
-                <div class="icon-wrapper border rounded p-3">
-                  <i class="fa-solid fa-plus"></i>
+                <a
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                >
+                  <div class="icon-wrapper border rounded p-3">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </a>
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Inserisci un nuovo studente
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <form>
+                      <div class="row">
+                        <div class="col-6">
+                          <label for="name" class="form-label">Nome</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder=""
+                          />
+                        </div>
+                        <div class="col-6">
+                          <div class="mb-3">
+                            <label for="name" class="form-label">Cognome</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="surname"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <label for="basic-url" class="form-label"
+                            >Email</label
+                          >
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3"
+                              >@</span
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="basic-url"
+                              aria-describedby="basic-addon3"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="mb-3">
+                            <label for="password" class="form-label"
+                              >Password</label
+                            >
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="surname"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <label for="basic-url" class="form-label"
+                            >Indirizzo Email</label
+                          >
+                          <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3"
+                              >@</span
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="basic-url"
+                              aria-describedby="basic-addon3"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="mb-3">
+                            <label for="password" class="form-label"
+                              >Password</label
+                            >
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="surname"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                          <label for="via" class="form-label">Indirizzo</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="indirizzo"
+                            placeholder=""
+                          />
+                        </div>
+                        <div class="col-5 mb-3">
+                          <label for="city" class="form-label">Città</label>
+                          <input
+                            type="city"
+                            class="form-control"
+                            id="indirizzo"
+                            placeholder=""
+                          />
+                        </div>
+                        <div class="col-4 mb-3">
+                          <label for="state" class="form-label">Stato</label>
+                          <select class="form-select" id="inputGroupSelect01">
+                            <option selected>Scegli...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                        <div class="col-3 mb-3">
+                          <label for="city" class="form-label">CAP</label>
+                          <input
+                            type="city"
+                            class="form-control"
+                            id="indirizzo"
+                            placeholder=""
+                          />
+                        </div>
+                        <div class="col-12 mb-3">
+                          <label for="city" class="form-label"
+                            >Scegli file</label
+                          >
+                          <input
+                            type="file"
+                            class="form-control"
+                            id="inputGroupFile01"
+                          />
+                        </div>
+                        <div class="col-12 mb-3">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckChecked"
+                              checked
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexCheckChecked"
+                            >
+                              Seleziona per proseguire
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                          <button
+                            type="submit"
+                            class="btn bg-primary text-white"
+                          >
+                            Salva
+                          </button>
+                          <button type="reset" class="btn bg-warning">
+                            Svuota
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
@@ -150,6 +337,7 @@
         <div class="container-fluid">
           <div class="row row-cols-1 row-cols-xl-2">
             <div class="col-xl-8 col">
+              <!-- NEXT CLASSES TABLE -->
               <div class="next-classes my-4">
                 <div class="card">
                   <div class="card-header">
@@ -376,6 +564,7 @@
                   </div>
                 </div>
               </div>
+              <!-- FAQ SECTION -->
               <div class="faq my-4">
                 <div class="card">
                   <div class="card-header">
@@ -440,6 +629,7 @@
                           </div>
                         </div>
                       </div>
+                      <!-- ACCORDION SECTION -->
                       <div class="accordion-item">
                         <h2 class="accordion-header">
                           <button
@@ -475,6 +665,7 @@
                 </div>
               </div>
             </div>
+            <!-- CHART SECTION -->
             <div class="col-xl-4 col">
               <div class="todo my-4">
                 <div class="card">
