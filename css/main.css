@@ -11,9 +11,8 @@
 
 body {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
-  overflow: hidden;
 }
 
 ul,
@@ -62,6 +61,11 @@ img {
 
 nav {
   padding: 15px 0px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
 }
 
 .mobile-logo {
@@ -112,9 +116,8 @@ aside {
   background-image: url("../img/sidebar-bg.png");
   width: 70px;
   padding: 20px 0px;
-  position: sticky;
+  position: fixed;
   left: 0;
-  top: 0;
   height: calc(100% - 80px);
 }
 
@@ -138,18 +141,30 @@ aside {
   cursor: pointer;
 }
 
+.no-border {
+  border-radius: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
 /* MAIN */
 
 main {
   height: 100%;
-  overflow: auto;
+  margin-left: 70px;
 }
 
 main header {
   background-color: var(--header-bg-color);
   width: 100%;
   color: white;
-  padding: 50px 0px;
+  padding: 20px 0px;
+}
+
+main td img {
+  width: 30px;
 }
 
 main header span,
@@ -159,6 +174,10 @@ main header i {
   color: white;
 }
 
+.w-th {
+  width: 50%;
+}
+
 @media (min-width: 768px) {
 }
 
@@ -166,6 +185,9 @@ main header i {
   aside {
     height: calc(100% - 70px);
     width: 135px;
+  }
+  main {
+    margin-left: 135px;
   }
 }
 

@@ -67,41 +67,41 @@
         </div>
       </div>
     </nav>
-    <main class="d-flex align-items-start">
-      <aside class="flex-shrink-0">
-        <div class="container-fluid h-100">
-          <div
-            class="d-flex flex-column align-items-center justify-content-between h-100"
-          >
-            <div class="d-flex flex-column justify-content-between gap-2">
-              <div class="d-flex gap-2 align-items-center aside-bar-container">
-                <div class="icon-wrapper">
-                  <i class="fa-solid fa-house aside-icon"></i>
-                </div>
-                <span class="aside-text d-none d-lg-inline-block">Home</span>
+    <aside class="flex-shrink-0">
+      <div class="container-fluid h-100">
+        <div
+          class="d-flex flex-column align-items-center justify-content-between h-100"
+        >
+          <div class="d-flex flex-column justify-content-between gap-2">
+            <div class="d-flex gap-2 align-items-center aside-bar-container">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-house aside-icon"></i>
               </div>
-              <div class="d-flex gap-2 align-items-center aside-bar-container">
-                <div class="icon-wrapper">
-                  <i class="fa-solid fa-chart-simple aside-icon"></i>
-                </div>
-                <span class="aside-text d-none d-lg-inline-block">Stats</span>
-              </div>
-              <div class="d-flex gap-2 align-items-center aside-bar-container">
-                <div class="icon-wrapper">
-                  <i class="fa-solid fa-signal aside-icon"></i>
-                </div>
-                <span class="aside-text d-none d-lg-inline-block">Signals</span>
-              </div>
+              <span class="aside-text d-none d-lg-inline-block">Home</span>
             </div>
             <div class="d-flex gap-2 align-items-center aside-bar-container">
               <div class="icon-wrapper">
-                <i class="fa-solid fa-gear aside-icon"></i>
+                <i class="fa-solid fa-chart-simple aside-icon"></i>
               </div>
-              <span class="aside-text d-none d-lg-inline-block">Admin</span>
+              <span class="aside-text d-none d-lg-inline-block">Stats</span>
+            </div>
+            <div class="d-flex gap-2 align-items-center aside-bar-container">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa-signal aside-icon"></i>
+              </div>
+              <span class="aside-text d-none d-lg-inline-block">Signals</span>
             </div>
           </div>
+          <div class="d-flex gap-2 align-items-center aside-bar-container">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-gear aside-icon"></i>
+            </div>
+            <span class="aside-text d-none d-lg-inline-block">Admin</span>
+          </div>
         </div>
-      </aside>
+      </div>
+    </aside>
+    <main class="">
       <header>
         <div class="container-fluid">
           <div
@@ -146,6 +146,397 @@
           </div>
         </div>
       </header>
+      <section>
+        <div class="container-fluid">
+          <div class="row row-cols-1 row-cols-xl-2">
+            <div class="col-xl-8 col">
+              <div class="next-classes my-4">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="card-title h4">Prossime classi</div>
+                  </div>
+                  <div class="card-body">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col" class="w-th">Nome</th>
+                          <th scope="col" class="d-none d-md-table-cell">
+                            Data Inizio
+                          </th>
+                          <th scope="col" class="d-none d-md-table-cell">
+                            ROI
+                          </th>
+                          <th scope="col" class="text-center">Stato</th>
+                          <th scope="col" class="text-center">Azioni</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div
+                              class="d-flex gap-2 align-items-center flex-wrap"
+                            >
+                              <img src="./img/class-avatar.jpg" alt="" />
+                              <span class="text-dark">Classe 75</span>
+                            </div>
+                          </td>
+                          <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td class="text-center">
+                            <span class="badge bg-success">Done</span>
+                          </td>
+                          <td
+                            class="d-flex gap-2 flex-wrap justify-content-center"
+                          >
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-pencil text-center"></i>
+                            </div>
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-trash"></i>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div
+                              class="d-flex gap-2 align-items-center flex-wrap"
+                            >
+                              <img src="./img/class-avatar.jpg" alt="" />
+                              <span class="text-dark">Classe 76</span>
+                            </div>
+                          </td>
+                          <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td class="text-center">
+                            <span class="badge bg-success">Done</span>
+                          </td>
+                          <td
+                            class="d-flex gap-2 flex-wrap justify-content-center"
+                          >
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-pencil"></i>
+                            </div>
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-trash"></i>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div
+                              class="d-flex gap-2 align-items-center flex-wrap"
+                            >
+                              <img src="./img/class-avatar.jpg" alt="" />
+                              <span class="text-dark">Classe 77</span>
+                            </div>
+                          </td>
+                          <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td class="text-center">
+                            <span class="badge bg-warning">Process</span>
+                          </td>
+                          <td
+                            class="d-flex gap-2 flex-wrap justify-content-center"
+                          >
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-pencil"></i>
+                            </div>
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-trash"></i>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div
+                              class="d-flex gap-2 align-items-center flex-wrap"
+                            >
+                              <img src="./img/class-avatar.jpg" alt="" />
+                              <span class="text-dark">Classe 78</span>
+                            </div>
+                          </td>
+                          <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td class="text-center">
+                            <span class="badge bg-success">Done</span>
+                          </td>
+                          <td
+                            class="d-flex gap-2 flex-wrap justify-content-center"
+                          >
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-pencil"></i>
+                            </div>
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-trash"></i>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div
+                              class="d-flex gap-2 align-items-center flex-wrap"
+                            >
+                              <img src="./img/class-avatar.jpg" alt="" />
+                              <span class="text-dark">Classe 79</span>
+                            </div>
+                          </td>
+                          <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td class="text-center">
+                            <span class="badge bg-danger">Failed</span>
+                          </td>
+                          <td
+                            class="d-flex gap-2 flex-wrap justify-content-center"
+                          >
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-pencil"></i>
+                            </div>
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-trash"></i>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div
+                              class="d-flex gap-2 align-items-center flex-wrap"
+                            >
+                              <img src="./img/class-avatar.jpg" alt="" />
+                              <span class="text-dark">Classe 80</span>
+                            </div>
+                          </td>
+                          <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td class="text-center">
+                            <span class="badge bg-success">Done</span>
+                          </td>
+                          <td
+                            class="d-flex gap-2 flex-wrap justify-content-center"
+                          >
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-pencil"></i>
+                            </div>
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-trash"></i>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div
+                              class="d-flex gap-2 align-items-center flex-wrap"
+                            >
+                              <img src="./img/class-avatar.jpg" alt="" />
+                              <span class="text-dark">Classe 81</span>
+                            </div>
+                          </td>
+                          <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td class="text-center">
+                            <span class="badge bg-danger">Failed</span>
+                          </td>
+                          <td
+                            class="d-flex gap-2 flex-wrap justify-content-center"
+                          >
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-pencil"></i>
+                            </div>
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-trash"></i>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div
+                              class="d-flex gap-2 align-items-center flex-wrap"
+                            >
+                              <img src="./img/class-avatar.jpg" alt="" />
+                              <span class="text-dark">Classe 82</span>
+                            </div>
+                          </td>
+                          <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                          <td class="d-none d-md-table-cell">20%</td>
+                          <td class="text-center">
+                            <span class="badge bg-success">Done</span>
+                          </td>
+                          <td
+                            class="d-flex gap-2 flex-wrap justify-content-center"
+                          >
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-pencil"></i>
+                            </div>
+                            <div class="icon-wrapper border rounded p-3">
+                              <i class="fa-solid fa-trash"></i>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="faq my-4">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="card-title h4">F.A.Q.</div>
+                  </div>
+                  <div class="card-body">
+                    <div
+                      class="accordion accordion-flush"
+                      id="accordionFlushExample"
+                    >
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne"
+                          >
+                            Come aggiungere un nuovo studente
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseOne"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            Placeholder content for this accordion, which is
+                            intended to demonstrate the
+                            <code>.accordion-flush</code> class. This is the
+                            first item's accordion body.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseTwo"
+                          >
+                            Come posso accedere alle informazioni del mio
+                            account?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            Placeholder content for this accordion, which is
+                            intended to demonstrate the
+                            <code>.accordion-flush</code> class. This is the
+                            second item's accordion body. Let's imagine this
+                            being filled with some actual content.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree"
+                          >
+                            Posso usare questa dashborad da mobile
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            Placeholder content for this accordion, which is
+                            intended to demonstrate the
+                            <code>.accordion-flush</code> class. This is the
+                            third item's accordion body. Nothing more exciting
+                            happening here in terms of content, but just filling
+                            up the space to make it look, at least at first
+                            glance, a bit more representative of how this would
+                            look in a real-world application.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col">
+              <div class="todo my-4">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="card-title h3">Todo</div>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-group">
+                      <li
+                        class="list-group-item d-flex gap-2 align-items-center"
+                      >
+                        <input type="checkbox" class="form-check-input" /><span
+                          class="text-black"
+                          >Kickoof nuove classi</span
+                        >
+                      </li>
+                      <li
+                        class="list-group-item d-flex gap-2 align-items-center"
+                      >
+                        <input type="checkbox" class="form-check-input" /><span
+                          class="text-black"
+                          >Lezione su Bootstrap 5 in classe #75</span
+                        >
+                      </li>
+                      <li
+                        class="list-group-item d-flex gap-2 align-items-center"
+                      >
+                        <input type="checkbox" class="form-check-input" /><span
+                          class="text-black"
+                          >Controllare username github studenti</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="chart my-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="./img/stats.jpeg" alt="stats" />
+                    <h3 class="text-black">Utenti attivi</h3>
+                    <span class="text-black"
+                      >Lista degli utienti attivi in piattaforma nell'ultimo
+                      mese</span
+                    >
+                  </div>
+                  <ul class="list-group no-border">
+                    <li class="list-group-item">Gennaio: 1200</li>
+                    <li class="list-group-item">Febbraio: 800</li>
+                    <li class="list-group-item">Marzo: 1500</li>
+                  </ul>
+                  <div class="card-body border-0">
+                    <a class="text-primary pointer"
+                      >Visualizza report approfondito</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
