@@ -54,6 +54,10 @@ img {
   cursor: pointer;
 }
 
+.bg-darkblue {
+  background-color: #165bba;
+}
+
 /* NAVBAR */
 
 nav {
@@ -132,6 +136,27 @@ aside {
   background-color: rgba(180, 180, 180, 0.61);
   border-radius: 3px;
   cursor: pointer;
+}
+
+/* MAIN */
+
+main {
+  height: 100%;
+  overflow: auto;
+}
+
+main header {
+  background-color: var(--header-bg-color);
+  width: 100%;
+  color: white;
+  padding: 50px 0px;
+}
+
+main header span,
+main header h2,
+main header strong,
+main header i {
+  color: white;
 }
 
 @media (min-width: 768px) {
